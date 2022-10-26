@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/textView_label_codigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Codigo do Brinco:  " />
+
+        <TextView
+            android:id="@+id/textView_codigo"
+            android:layout_toRightOf="@+id/textView_label_codigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/textView_label_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_label_codigo"
+            android:text="Data da pesagem:  " />
+
+        <TextView
+            android:id="@+id/textView_data"
+            android:layout_toRightOf="@+id/textView_label_data"
+            android:layout_below="@+id/textView_codigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" " />
+
+        <TextView
+            android:id="@+id/textView_label_peso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_label_data"
+            android:text="Peso:  " />
+
+        <TextView
+            android:id="@+id/textView_peso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView_label_peso"
+            android:layout_below="@+id/textView_data"
+            android:text="Peso" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

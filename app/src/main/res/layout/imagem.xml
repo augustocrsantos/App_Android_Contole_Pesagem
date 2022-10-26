@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImagemActivit">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageViewCapturada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icone_camera" />
+
+        <Button
+            android:id="@+id/btCapturar_imagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Capturar Imagem" />
+
+        <Button
+            android:id="@+id/btSalvar_imagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/btCapturar_imagem"
+            android:text="Salvar" />
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

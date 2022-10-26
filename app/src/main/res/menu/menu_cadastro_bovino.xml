@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.myapplication_peso.MainActivity">
+        <item
+            android:id="@+id/menu_pesquisa_cadastro"
+            android:orderInCategory="100"
+            android:title="Bovinos cadastrados"
+            app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_pesquisa_pesagem"
+        android:orderInCategory="100"
+        android:title="Pesquisar Pesagem"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_cadastrar_bovino_sair"
+        android:orderInCategory="100"
+        android:title="Sair do Cadastramento"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplication_peso.MainActivity">
+
+    <item
+        android:id="@+id/menu_cadpesagem_sair"
+        android:orderInCategory="100"
+        android:title="Sair do Cadastro"
+        app:showAsAction="never" />
+
+
+</menu>

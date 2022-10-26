@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "664139854605",
+    "project_id": "cadastro-pesagem",
+    "storage_bucket": "cadastro-pesagem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:664139854605:android:472f6190b3d43435817644",
+        "android_client_info": {
+          "package_name": "com.example.controla_peso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "664139854605-hqmajls34oqpaf0cgdmqf64a110unhli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfp-r17sp8vPf1t9S3scxuyUEXdleKj4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "664139854605-hqmajls34oqpaf0cgdmqf64a110unhli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

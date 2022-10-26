@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplication_peso.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Cadastro bovino"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_cadastar_pesagem"
+        android:orderInCategory="100"
+        android:title="Cadastra nova pesagem"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_pesquisar_cadastro"
+        android:orderInCategory="100"
+        android:title="Pesquisar animais cadastrados"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_totalizar"
+        android:orderInCategory="100"
+        android:title="Totalizador Pesagem"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_sair"
+        android:orderInCategory="100"
+        android:title="Sair"
+        app:showAsAction="never" />
+
+
+
+
+</menu>

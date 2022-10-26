@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.myapplication_peso.MainActivity">
+        <item
+            android:id="@+id/menu_pesquisa_pesagem"
+            android:orderInCategory="100"
+            android:title="Pesagens Cadastradas"
+            app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_cadastrar_bovino"
+        android:orderInCategory="100"
+        android:title="Cadastrar bovino"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_cadastrar_bovino_cad_pesagem"
+        android:orderInCategory="100"
+        android:title="Cadastrar Pesagem"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_cadastrar_bovino_sair"
+        android:orderInCategory="100"
+        android:title="Sair"
+        app:showAsAction="never" />
+
+
+
+
+</menu>

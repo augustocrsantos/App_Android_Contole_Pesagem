@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+
+        <EditText
+            android:id="@+id/editTextText_pesquisaCad_codigo"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:ems="10"
+            android:hint="Brinco" />
+
+        <Button
+            android:id="@+id/buttonPesquisarCad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextText_pesquisaCad_codigo"
+            android:layout_toRightOf="@+id/switchPesqCadVendido"
+            android:focusable="true"
+            android:focusedByDefault="true"
+            android:text="Pesquisar" />
+
+        <ListView
+            android:id="@+id/listView_pesquisaCad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/textView_label_Total"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/textView_label_Total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/buttonPesquisarCad"
+            android:layout_marginLeft="5dp"
+            android:text="Total de animais cadastrados: "
+            android:textColor="#0000FF" />
+        <TextView
+            android:id="@+id/textViewTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textView_label_Total"
+            android:textColor="#0000FF"
+            android:layout_below="@+id/buttonPesquisarCad"
+            android:text="" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floating_adicionar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom|end"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+        <Switch
+            android:id="@+id/switchPesqCadVendido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextText_pesquisaCad_codigo"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="6dp"
+            android:text="Bov. Vendidos" />
+
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView_codigo_cadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/switchVendido"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="Codigo do brinco" />
+
+        <EditText
+            android:id="@+id/editTextText_codigo_cadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_codigo_cadastro"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView_data_cadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/editTextText_codigo_cadastro"
+            android:text="Data" />
+
+        <EditText
+            android:id="@+id/editText_date_cadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_data_cadastro"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/textView_raca_cadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/editText_date_cadastro"
+            android:text="Raça" />
+
+        <EditText
+            android:id="@+id/editTextText_raca"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_raca_cadastro"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/textView_observacao_cadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextText_raca"
+            android:layout_centerHorizontal="true"
+            android:text="Observação" />
+
+        <EditText
+            android:id="@+id/editTextText_observacao_cadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView_observacao_cadastro"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="text"
+            android:text="" />
+
+
+        <Button
+            android:id="@+id/button_salvar_cadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editTextText_observacao_cadastro"
+            android:layout_centerHorizontal="true"
+            android:text="SALVAR" />
+
+        <Button
+            android:id="@+id/button_capturar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView"
+            android:layout_centerHorizontal="true"
+            android:text="Adicionar foto" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icone_camera"
+            app:civ_border_color="#FFBB86FC"
+            app:civ_border_width="4dp" />
+
+        <Switch
+            android:id="@+id/switchVendido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_capturar"
+            android:layout_centerHorizontal="true"
+            android:text="Vendido" />
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
